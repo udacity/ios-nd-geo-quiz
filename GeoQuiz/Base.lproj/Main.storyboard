@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8sa-Cj-rbq">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Quiz View Controller-->
+        <scene sceneID="6CO-vj-Ddo">
+            <objects>
+                <viewController id="8sa-Cj-rbq" customClass="QuizViewController" customModule="ProjectZero" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UHU-K2-IXY"/>
+                        <viewControllerLayoutGuide type="bottom" id="6wM-6z-bDx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u1d-yc-aVr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="LsK-BO-SFV" userLabel="VerticalStackView">
+                                <rect key="frame" x="20" y="20" width="560" height="580"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Sq-cQ-AaL" userLabel="Horizontal SV1">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="145"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aRp-Fg-Tkm">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="145"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="flagButtonPressed:" destination="8sa-Cj-rbq" eventType="touchUpInside" id="4Yw-Zk-dwJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="145" id="lem-YI-ys3"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wFy-LX-VAA" userLabel="Horizontal SV2">
+                                        <rect key="frame" x="0.0" y="145" width="560" height="145"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQ3-oh-SEg">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="145"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="flagButtonPressed:" destination="8sa-Cj-rbq" eventType="touchUpInside" id="3PO-ok-zdQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="145" id="iXD-jq-Ko3"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PwN-bw-F2F" userLabel="Horizontal SV3">
+                                        <rect key="frame" x="0.0" y="290" width="560" height="145"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vCL-RX-pNW">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="145"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="flagButtonPressed:" destination="8sa-Cj-rbq" eventType="touchUpInside" id="Bu4-hR-4BJ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="145" id="HwS-z8-BCs"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qaP-ER-r4V" userLabel="Horizontal SV4">
+                                        <rect key="frame" x="0.0" y="435" width="560" height="145"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbP-OA-fAs">
+                                                <rect key="frame" x="0.0" y="0.0" width="560" height="145"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <state key="normal" title="Hear Phrase"/>
+                                                <connections>
+                                                    <action selector="hearPhrase:" destination="8sa-Cj-rbq" eventType="touchUpInside" id="u3W-4q-SEE"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="145" id="SvB-HA-xu2"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="LsK-BO-SFV" secondAttribute="trailing" id="DiI-2h-Yh7"/>
+                            <constraint firstItem="LsK-BO-SFV" firstAttribute="leading" secondItem="u1d-yc-aVr" secondAttribute="leadingMargin" id="IND-ht-OeS"/>
+                            <constraint firstItem="6wM-6z-bDx" firstAttribute="top" secondItem="LsK-BO-SFV" secondAttribute="bottom" id="mXU-Jg-Iam"/>
+                            <constraint firstItem="LsK-BO-SFV" firstAttribute="top" secondItem="UHU-K2-IXY" secondAttribute="bottom" id="vGE-N9-T1P"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flagButton1" destination="aRp-Fg-Tkm" id="AyN-XG-UTh"/>
+                        <outlet property="flagButton2" destination="zQ3-oh-SEg" id="lVc-C5-Ihx"/>
+                        <outlet property="flagButton3" destination="vCL-RX-pNW" id="lFy-LV-ciK"/>
+                        <outlet property="repeatPhraseButton" destination="wbP-OA-fAs" id="FfI-15-EIc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SHM-Vl-2fj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078" y="204"/>
+        </scene>
+    </scenes>
+</document>
