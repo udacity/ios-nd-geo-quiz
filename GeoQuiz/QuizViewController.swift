@@ -26,7 +26,7 @@ class QuizViewController: UIViewController {
     var lastRandomLanguageID = -1
     var selectedRow = -1
     var correctButtonTag = -1
-    var currentState: QuizState = .NoQuestionUpYet
+    var currentState: QuizState = .noQuestionUpYet
     var spokenText = ""
     var bcpCode = ""
     let speechSynth = AVSpeechSynthesizer()
@@ -34,7 +34,7 @@ class QuizViewController: UIViewController {
     // MARK: Actions
     
     // This function is called when user presses a flag button.
-    @IBAction func flagButtonPressed(sender: UIButton) {
+    @IBAction func flagButtonPressed(_ sender: UIButton) {
 
         // TODO: Add code to display a message to the user telling them whether or not they guessed correctly.
     }
