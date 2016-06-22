@@ -10,10 +10,10 @@
 		A9F408BD1D19AF3A00FEEA91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */; };
 		A9F408C21D19AF3A00FEEA91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F408C01D19AF3A00FEEA91 /* Main.storyboard */; };
 		A9F408C41D19AF3A00FEEA91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */; };
-		A9F408C71D19AF3A00FEEA91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9F408C51D19AF3A00FEEA91 /* LaunchScreen.storyboard */; };
 		A9F408D11D19AF7200FEEA91 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F408CE1D19AF7200FEEA91 /* Country.swift */; };
 		A9F408D21D19AF7200FEEA91 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F408CF1D19AF7200FEEA91 /* QuizViewController.swift */; };
 		A9F408D31D19AF7200FEEA91 /* QuizViewController+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */; };
+		A9FA135C1D1AB99D00B5F46E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FA135A1D1AB99D00B5F46E /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9F408C11D19AF3A00FEEA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9F408C61D19AF3A00FEEA91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9F408C81D19AF3A00FEEA91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9F408CE1D19AF7200FEEA91 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		A9F408CF1D19AF7200FEEA91 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "QuizViewController+Functions.swift"; sourceTree = "<group>"; };
+		A9FA135B1D1AB99D00B5F46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */,
 				A9F408C01D19AF3A00FEEA91 /* Main.storyboard */,
 				A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */,
-				A9F408C51D19AF3A00FEEA91 /* LaunchScreen.storyboard */,
+				A9FA135A1D1AB99D00B5F46E /* LaunchScreen.xib */,
 				A9F408C81D19AF3A00FEEA91 /* Info.plist */,
 			);
 			path = GeoQuiz;
@@ -129,8 +129,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9F408C71D19AF3A00FEEA91 /* LaunchScreen.storyboard in Resources */,
 				A9F408C41D19AF3A00FEEA91 /* Assets.xcassets in Resources */,
+				A9FA135C1D1AB99D00B5F46E /* LaunchScreen.xib in Resources */,
 				A9F408C21D19AF3A00FEEA91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,12 +160,12 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		A9F408C51D19AF3A00FEEA91 /* LaunchScreen.storyboard */ = {
+		A9FA135A1D1AB99D00B5F46E /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A9F408C61D19AF3A00FEEA91 /* Base */,
+				A9FA135B1D1AB99D00B5F46E /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
