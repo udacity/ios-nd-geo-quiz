@@ -186,11 +186,11 @@ extension QuizViewController {
             flagButton1.isHidden = true
             flagButton2.isHidden = true
             flagButton3.isHidden = true
-            flagButton1.layer.borderColor = UIColor.black().cgColor
+            flagButton1.layer.borderColor = UIColor.black.cgColor
             flagButton1.layer.borderWidth = 5
-            flagButton2.layer.borderColor = UIColor.black().cgColor
+            flagButton2.layer.borderColor = UIColor.black.cgColor
             flagButton2.layer.borderWidth = 5
-            flagButton3.layer.borderColor = UIColor.black().cgColor
+            flagButton3.layer.borderColor = UIColor.black.cgColor
             flagButton3.layer.borderWidth = 5
             repeatPhraseButton.setTitle("Start Quiz", for: UIControlState())
         } else if newState == .readyToSpeak {

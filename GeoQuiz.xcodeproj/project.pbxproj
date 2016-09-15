@@ -58,13 +58,13 @@
 		A9F408BB1D19AF3A00FEEA91 /* GeoQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				A9F408CE1D19AF7200FEEA91 /* Country.swift */,
 				A9F408BC1D19AF3A00FEEA91 /* AppDelegate.swift */,
+				A9F408CE1D19AF7200FEEA91 /* Country.swift */,
 				A9F408CF1D19AF7200FEEA91 /* QuizViewController.swift */,
 				A9F408D01D19AF7200FEEA91 /* QuizViewController+Functions.swift */,
 				A9F408C01D19AF3A00FEEA91 /* Main.storyboard */,
-				A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */,
 				A9FA135A1D1AB99D00B5F46E /* LaunchScreen.xib */,
+				A9F408C31D19AF3A00FEEA91 /* Assets.xcassets */,
 				A9F408C81D19AF3A00FEEA91 /* Info.plist */,
 			);
 			path = GeoQuiz;
